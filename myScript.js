@@ -18,10 +18,10 @@ function goldfinch() {
   document.getElementById("second").style.display="block";
 }
 
-function great() {
+function blue() {
   document.getElementById("third").style.display="none";
 }
 
-function blue() {
+function great() {
   document.getElementById("third").style.display="block";
 }

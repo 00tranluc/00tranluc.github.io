@@ -1,1 +1,52 @@
-"Hello World" 
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="mystyle.css">
+  </head>
+  <body>
+  <h1 id="title">Backyard Birding in the Northwest</h1>
+
+  <p id="first"><img id="imagess" onmouseout="firstimage()" alt="" src="http://www.animalspot.net/wp-content/uploads/2011/08/American-Robin-Images.jpg" onmouseover="secondimage()"></p>
+
+
+  <p><h1>Helpful Resources</h1></p>
+
+  <ul><h2>
+    <li>The online bird guide, <a href="https://www.allaboutbirds.org/">All About Birds</a>, provided by the Cornell Lab of Ornithology</li>
+    <li><a href="http://www.seattleaudubon.org/sas/">Seattle Audubon Society</a>, where you can get involved in the local community</li>
+  </h2></ul>
+
+  <p><h1>Basics</h1></p>
+
+  <div><h2>In order to begin birding or birdwatching as a hobby, you need:</h2></div>
+
+  <ul><h2>
+    <li>A pair of binoculars (which don’t have to be expensive)</li>
+    <li>A bird guide</li>
+    <li>Recommended book: Birds of Washington State by Brian H. Bell and Gregory Kennedy</li>
+    <li>Recommended app: Merlin Bird ID by the Cornell Lab of Ornithology</li>
+    <li>A notebook (study the behaviors of birds and what characterizes different types)</li>
+</h2></ul>
+
+  <p><h1>Some Facts</h1></p>
+  <button onclick="goldfinch()">American Goldfinch</button>
+  <button onclick="american()">Hide</button>
+  <p id="second"><img src="https://d1ia71hq4oe7pn.cloudfront.net/photo/63737371-720px.jpg" alt="Image of an American Goldfinch"></p>
+  <div id="captiontwo"><em>A breeding male American Goldfinch</em></div>
+  <div><h2>The Washington State Bird is the American Goldfinch.</h2></div>
+  <p><h2>American Goldfinches live in open woodlands, such as weedy fields, and can also be spotted in suburban backyards. They primarily eat seeds, such as thistle, sunflowers, and asters.</h2></p>
+  <div><h2>Trivia: What food item does the American Goldfinch's call sound like?</h2></div>
+  <button onclick="answer()">Answer</button>
+  <div id="question"></div>
+
+
+
+  <p id="third"><img src="https://d1ia71hq4oe7pn.cloudfront.net/photo/60314201-720px.jpg" alt="Image of a Great Blue Heron"></p>
+  <div id="captionthree"><em>The Great Blue Heron</em></div>
+  <div><h2>The Great Blue Heron is the Seattle City Bird.</h2></div>
+  <p><h2>The Seattle City Bird was designated on March 17, 2003. It was done to raise awareness of the bird's habitat requirements.</h2></p>
+
+  </body>
+  <script src="myScript.js">
+  </script>
+</html>

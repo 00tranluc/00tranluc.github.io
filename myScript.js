@@ -17,3 +17,11 @@ function american() {
 function goldfinch() {
   document.getElementById("second").style.display="block";
 }
+
+function great() {
+  document.getElementById("third").style.display="none";
+}
+
+function blue() {
+  document.getElementById("third").style.display="block";
+}

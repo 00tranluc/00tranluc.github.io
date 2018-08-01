@@ -1,12 +1,15 @@
 #title {
-    color: gray;
+    color: brown;
     text-align: center;
 }
 
 h1 {
-  color: gray;
+  color: brown;
 }
 
+#resources {
+  background-color: gray
+}
 
 #first, #second, #third, #caption, #captiontwo, #captionthree {
     text-align: center;

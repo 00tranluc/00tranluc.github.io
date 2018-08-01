@@ -1,0 +1,16 @@
+#title {
+    color: brown;
+    text-align: center;
+}
+
+h1 {
+  color: brown;
+}
+
+#first, #second, #third, #caption, #captiontwo, #captionthree {
+    text-align: center;
+}
+
+#question {
+    font-style: italic;
+}
